@@ -1,5 +1,5 @@
 {
-  "name": "swagger-parser",
+  "name": "swagger-parser-kill-circular",
   "version": "6.0.5",
   "description": "Swagger 2.0 and OpenAPI 3.0 parser and validator for Node and browsers",
   "keywords": [
@@ -20,13 +20,13 @@
     "dereference"
   ],
   "author": {
-    "name": "James Messinger",
-    "url": "https://jamesmessinger.com"
+    "name": "rovast",
+    "url": "rovast@163.com"
   },
   "homepage": "https://apidevtools.org/swagger-parser/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/APIDevTools/swagger-parser.git"
+    "url": "https://github.com/rovast/swagger-parser.git"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -83,7 +83,7 @@
   },
   "dependencies": {
     "call-me-maybe": "^1.0.1",
-    "json-schema-ref-parser": "^6.0.3",
+    "json-schema-ref-parser-kill-circular": "^6.0.3",
     "ono": "^4.0.11",
     "openapi-schema-validation": "^0.4.2",
     "swagger-methods": "^1.0.8",
